@@ -1,0 +1,53 @@
+.slideine {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding: 10px 10px;
+    background-color: rgb(216, 253, 142);
+    border: 30;
+    border-radius: 60px;
+    outline:auto;
+  }
+  
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 700%;
+    }
+  
+    to {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+
+
+}
+.dos{
+
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding: 10px 10px;
+    background-color: rgb(216, 253, 142);
+    border: 20;
+    border-radius: 10px;
+   
+  }
+  
+
+  @keyframes slidein {
+    from {
+      margin-left: 0%;
+      width: 700%;
+    }
+  
+    to {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+}
